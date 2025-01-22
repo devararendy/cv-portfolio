@@ -1,14 +1,23 @@
 # Rendy Devara  
-[eMail:rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [GitHub](https://github.com/devararendy) | (+62)81385960935 
+[📧 rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [🔗 LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [🐙 GitHub](https://github.com/devararendy) | ☎️ (+62)81385960935 
 
 ---
 
-## **Professional Summary**  
-Motivated and results-driven software developer with 5+ years of experience in building and optimizing scalable applications. Passionate about problem-solving and creating seamless user experiences.
+## **👤 Profile**  
+- **Full Name:** Rendy Devara 
+- **Gender:** Male
+- **DOB:** March, 22nd 1995
+- **Nationality:** Indonesian
+- **Mariage Status:** Married
 
 ---
 
-## **Skills**  
+## **📝 Professional Summary**  
+Motivated and results-driven software and hardware developer with 5+ years of experience in building and optimizing scalable applications. Passionate about problem-solving and creating seamless user experiences.
+
+---
+
+## **💡 Skills**  
 - **Programming Languages:** Golang, C++, C, Python, Protobuf, Bash Script (Linux / Unix), Markdown
 - **Communication Protocol / Interface:** TCP, UDP, RESTAPIs, GRPC, MQTT, UART, SPI, I2C, LORA
 - **Embedded System:** RaspberryPi, ESP32, ESP8266, STM32, AVR
@@ -20,7 +29,7 @@ Motivated and results-driven software developer with 5+ years of experience in b
 
 ---
 
-## **Professional Experience**  
+## **🏢 Professional Experience**  
 
 ### **Senior Backend Engineer**  
 **Stockbit.com, 📍 Jakarta, Indonesia** — *Dec 2021 – Present*  
@@ -49,7 +58,7 @@ Project
 
 ---
 
-## **Partime Experience** 
+## **⏳ Partime Experience** 
 
 ### **RF Engineer**  
 **OS-Wifanusa, 📍 Bandung, Indonesia** — *Jan 2016 – Jun 2016*  
@@ -62,7 +71,7 @@ Project
 
 ---
 
-## **Education**  
+## **🎓 Education**  
 
 ### **Bachelor of Computer Engineering**  
 **BINUS University, 📍 Jakarta, Indonesia** — *Jun 2013 – Aug 2017*  
@@ -72,24 +81,33 @@ Project
 
 ---
 
-## **Projects**  
+## **🛠️ Projects**  
 
-### **Portfolio Website**  
-- Designed and built a personal portfolio using HTML, CSS, and JavaScript to showcase projects and skills.  
+### **Bot Telegram Near ARA Stock (IDX)**  
+- Create bot for fetch and filter which stock are potentially to gain price until ARA (max price of the day). This app written in Golang
 
-### **E-Commerce API**  
-- Developed a REST API for an e-commerce platform with features like authentication, product management, and cart functionality.  
+### **Truck Scale Software**  
+- Create a GUI Application for a client (Company) for measuring weight of Truck using digital scale (load cell) and print the tickets. It can generate report and has User Account management as well. Supported in macOS, Linux & Windows. This app written in C++
+
+### **Drone Delivery Service**  
+- Create Drone from the Flight Controller Schematic, PCB, Firmware until complete for delivering package via Air. This firmware written in C++
+
+### **FPV Drone**  
+- Build many FPV Drone for hobbies and clients, from tiny whoop below 2in, Freestyle 5in, Racedrone 5in, until long range VTOL Drone
 
 ---
 
-## **Certifications**  
-- **AWS Certified Solutions Architect – Associate** (2021)  
-- **Certified ScrumMaster (CSM)** (2020)  
+## **🏆 Awards**  
+- **Technical Award – The 13th International Robot Olympiad 2011** (International)  
+- **2nd Place Autonomous Sumo Robot - Robotic Day 2011** (National)  
+- **1st Place Autonomous Sumo Robot - Robotic Day 2012** (National)
+- **1st Line Follower Robot - Pesta Rakyat Fisika UI 2011** (National)
 
 ---
 
-## **Interests**  
+## **🎨 Interests**  
 - Open-source contributions  
-- Machine learning  
-- Outdoor hiking and photography  
+- Stock Investment and Stock Trading  
+- Robotics 
+- Drone FPV 
 
