@@ -3,19 +3,25 @@
 
 ---
 
-<img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;" />
-
 ## **👤 Profile**  
-- **Full Name:** Rendy Devara 
-- **Gender:** Male
-- **DOB:** March, 22nd 1995
-- **Nationality:** Indonesian
-- **Mariage Status:** Married
+
+<div style="display: flex; align-items: center; gap: 20px;">
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Image" width="150" style="border-radius: 50%;">
+    <div>
+        <ul>
+            <li><b>Full Name</b>: Rendy Devara </li>
+            <li><b>Gender</b>: Male</li>
+            <li><b>DOB</b>: March, 22nd 1995</li>
+            <li><b>Nationality</b>: Indonesian</li>
+            <li><b>Mariage Status</b>: Married </li>
+        </ul>
+    </div>
+</div>
 
 ---
 
 ## **📝 Professional Summary**  
-Motivated and results-driven software and hardware developer with 5+ years of experience in building and optimizing scalable applications. Passionate about problem-solving and creating seamless user experiences.
+Motivated and results-driven software and hardware developer with 8+ years of experience in building and optimizing scalable applications. Passionate about problem-solving and creating seamless user experiences.
 
 ---
 
@@ -49,7 +55,7 @@ onboard and also to send to server to be displayed on Dashboard via Smart Modem
 - Create development tools using unix / linux based  
 - Create custom linux for embedded system (buildroot & yocto)  
 
-### **Senior R&D Engineer**  
+### **Senior R&D Engineer (Team Leader)**  
 **Ishaan Informatics.Pte.Ltd, 📍 Jakarta, Indonesia** — *Sept 2017 – Jul 2020*  
 - Create new products from concept into real electronic product for Airlines
 Project
