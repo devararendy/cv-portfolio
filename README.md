@@ -3,6 +3,8 @@
 
 ---
 
+<img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;" />
+
 ## **👤 Profile**  
 - **Full Name:** Rendy Devara 
 - **Gender:** Male
@@ -84,7 +86,7 @@ Project
 ## **🛠️ Projects**  
 
 ### **Bot Telegram Near ARA Stock (IDX)**  
-- Create bot for fetch and filter which stock are potentially to gain price until ARA (max price of the day). This app written in Golang
+- Create bot for fetch and filter which stock are potentially to gain price until ARA (max price of the day). This bot will help Trader to  This app written in Golang
 
 ### **Truck Scale Software**  
 - Create a GUI Application for a client (Company) for measuring weight of Truck using digital scale (load cell) and print the tickets. It can generate report and has User Account management as well. Supported in macOS, Linux & Windows. This app written in C++
