@@ -11,9 +11,9 @@
         <ul>
             <li><b>Full Name</b>: Rendy Devara</li>
             <li><b>Gender</b>: Male</li>
-            <li><b>DOB</b>: March 22, 1995</li>
+            <li><b>Email</b>: rendy_devara@msn.com</li>
             <li><b>Nationality</b>: Indonesian</li>
-            <li><b>Marital Status</b>: Married</li>
+            <li><b>Phone Number</b>: (+62)81285960935</li>
         </ul>
     </div>
 </div>
@@ -91,7 +91,7 @@ Versatile software and hardware developer with 8+ years of experience in buildin
 ## **🛠️ Projects**  
 
 ### **Bot Telegram Near ARA Stock (IDX)**  
-- Built a bot to fetch and filter stocks potentially reaching ARA (max price of the day) to assist traders. Developed in Golang. Giving traders awareness of potential stocks with important info such as Best Bid, Best Ask Price and Volume, Latest PBV, Percent Gain. 
+- Built a bot to fetch and filter stocks potentially reaching ARA (max price of the day). Assisted traders in making data-driven decisions by providing timely alerts and critical stock insights. Giving traders awareness of potential stocks with important info such as Best Bid, Best Ask Price and Volume, Latest PBV, Percent Gain. Developed in Golang
 
 ### **Truck Scale Software**  
 - Created a cross-platform GUI application for truck weight measurement with digital scales, ticket printing, reporting, and user account management. Developed in C++. Capable to capture the truck being scaled by using USB Camera and include it into the report. 
