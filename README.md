@@ -9,11 +9,10 @@
     <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
-            <li><b>Full Name</b>: Rendy Devara</li>
-            <li><b>Gender</b>: Male</li>
-            <li><b>Email</b>: rendy_devara@msn.com</li>
-            <li><b>Nationality</b>: Indonesian</li>
-            <li><b>Phone Number</b>: (+62)81285960935</li>
+            <li><b>Full Name:</b> Rendy Devara</li>
+            <li><b>Email:</b> <a href="mailto:rendy_devara@msn.com">rendy_devara@msn.com</a></li>
+            <li><b>Nationality:</b> Indonesian</li>
+            <li><b>Phone Number:</b> (+62)81285960935</li>
         </ul>
     </div>
 </div>
