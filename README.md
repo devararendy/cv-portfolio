@@ -1,5 +1,5 @@
-# Rendy Devara  
-[📧 rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [🔗 LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [🐙 GitHub](https://github.com/devararendy) | ☎️ (+62)81385960935 
+# **Rendy Devara**  
+[📧 rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [🔗 LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [🐙 GitHub](https://github.com/devararendy) | ☎️ (+62)81385960935  
 
 ---
 
@@ -9,11 +9,11 @@
     <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
-            <li><b>Full Name</b>: Rendy Devara </li>
+            <li><b>Full Name</b>: Rendy Devara</li>
             <li><b>Gender</b>: Male</li>
-            <li><b>DOB</b>: March, 22nd 1995</li>
+            <li><b>DOB</b>: March 22, 1995</li>
             <li><b>Nationality</b>: Indonesian</li>
-            <li><b>Mariage Status</b>: Married </li>
+            <li><b>Marital Status</b>: Married</li>
         </ul>
     </div>
 </div>
@@ -40,82 +40,78 @@ Motivated and results-driven software and hardware developer with 8+ years of ex
 ## **🏢 Professional Experience**  
 
 ### **Senior Backend Engineer**  
-**Stockbit.com, 📍 Jakarta, Indonesia** — *Dec 2021 – Present*  
-- Create Exchange Core (matching engine) adopting LMAX
-Architecture using C++17. Able to handle around 150.000 order per second  
-- Create development tools using unix / linux based.  
-- Develop Services for Stock Exchanges in Golang.  
+**Stockbit.com** | 📍 Jakarta, Indonesia  
+*Dec 2021 – Present*  
+- Developed Exchange Core (matching engine) adopting LMAX architecture using C++17, capable of handling 150,000 orders per second.  
+- Created development tools for Unix/Linux-based systems.  
+- Built services for stock exchanges using Golang.  
 
 ### **Firmware Engineer**  
-**PT Mecoindo - Itron, 📍 South Cikarang, Indonesia** — *Sept 2020 – Nov 2021*  
-- Develop firmware & application for Smart Electric Meter & Smart
-Modem. Using Python for the Linux user space. The Smart Electric
-Meter is based on Linux SBC. It’s able to log and process the data
-onboard and also to send to server to be displayed on Dashboard via Smart Modem 
-- Create development tools using unix / linux based  
-- Create custom linux for embedded system (buildroot & yocto)  
+**PT Mecoindo - Itron** | 📍 South Cikarang, Indonesia  
+*Sept 2020 – Nov 2021*  
+- Designed firmware and applications for Smart Electric Meters and Modems using Python for Linux user space.  
+- Created custom Linux builds for embedded systems (Buildroot & Yocto).  
+- Developed Unix/Linux-based tools.  
 
 ### **Senior R&D Engineer (Team Leader)**  
-**Ishaan Informatics.Pte.Ltd, 📍 Jakarta, Indonesia** — *Sept 2017 – Jul 2020*  
-- Create new products from concept into real electronic product for Airlines
-Project
-- Carefully selecting required components
-- Design PCB schematic and PCB layout carefully (Trace width, component position, restricted area, etc) 
-- Prototyping & testing of the electronic device using Oscilloscope, DMM, Antenna Analyzer 
-- Create infrastructure plan and implement RESTful API for interfacing Hardware to Mobile App & Backend
+**Ishaan Informatics Pte. Ltd.** | 📍 Jakarta, Indonesia  
+*Sept 2017 – Jul 2020*  
+- Designed and prototyped new electronic products for airline projects, including PCB design and layout.  
+- Implemented RESTful APIs for interfacing hardware with mobile apps and backends.  
+- Conducted thorough testing using oscilloscopes, DMMs, and antenna analyzers.  
 
 ---
 
-## **⏳ Partime Experience** 
+## **⏳ Part-Time Experience**  
 
 ### **RF Engineer**  
-**OS-Wifanusa, 📍 Bandung, Indonesia** — *Jan 2016 – Jun 2016*  
-- Create & Develop Radio Frequency Communication Device
-- Create Battery Pack including the Battery Management System. 
+**OS-Wifanusa** | 📍 Bandung, Indonesia  
+*Jan 2016 – Jun 2016*  
+- Developed radio frequency communication devices and battery packs with integrated management systems.  
 
 ### **Embedded System Engineer**  
-**OS-Wifanusa, 📍 Jakarta, Indonesia** — *Nov 2014 – Jan 2016*  
-- Create Microcontroller Firmware for controling Amateur Radio Interface.
+**OS-Wifanusa** | 📍 Jakarta, Indonesia  
+*Nov 2014 – Jan 2016*  
+- Designed microcontroller firmware for controlling amateur radio interfaces.  
 
 ---
 
 ## **🎓 Education**  
 
 ### **Bachelor of Computer Engineering**  
-**BINUS University, 📍 Jakarta, Indonesia** — *Jun 2013 – Aug 2017*  
+**BINUS University** | 📍 Jakarta, Indonesia  
+*Jun 2013 – Aug 2017*  
 - Graduated with honors (GPA: 3.36/4.0)  
-- With Major Embedded System 
-- Relevant Courses: Hardware Engineering, Software Engineering, Data Structures, Algorithms, Database Systems 
+- Major: Embedded Systems  
+- Relevant Courses: Hardware Engineering, Software Engineering, Data Structures, Algorithms, Database Systems  
 
 ---
 
 ## **🛠️ Projects**  
 
 ### **Bot Telegram Near ARA Stock (IDX)**  
-- Create bot for fetch and filter which stock are potentially to gain price until ARA (max price of the day). This bot will help Trader to  This app written in Golang
+- Built a bot to fetch and filter stocks potentially reaching ARA (max price of the day) to assist traders. Developed in Golang.  
 
 ### **Truck Scale Software**  
-- Create a GUI Application for a client (Company) for measuring weight of Truck using digital scale (load cell) and print the tickets. It can generate report and has User Account management as well. Supported in macOS, Linux & Windows. This app written in C++
+- Created a cross-platform GUI application for truck weight measurement with digital scales, ticket printing, reporting, and user account management. Developed in C++.  
 
 ### **Drone Delivery Service**  
-- Create Drone from the Flight Controller Schematic, PCB, Firmware until complete for delivering package via Air. This firmware written in C++
+- Designed and developed drones from schematics, PCB design, and firmware for aerial package delivery. Firmware written in C++.  
 
 ### **FPV Drone**  
-- Build many FPV Drone for hobbies and clients, from tiny whoop below 2in, Freestyle 5in, Racedrone 5in, until long range VTOL Drone
+- Built FPV drones for hobbies and clients, including tiny whoops, freestyle 5-inch, race drones, and long-range VTOL drones.  
 
 ---
 
 ## **🏆 Awards**  
-- **Technical Award – The 13th International Robot Olympiad 2011** (International)  
-- **2nd Place Autonomous Sumo Robot - Robotic Day 2011** (National)  
-- **1st Place Autonomous Sumo Robot - Robotic Day 2012** (National)
-- **1st Line Follower Robot - Pesta Rakyat Fisika UI 2011** (National)
+- **Technical Award** – The 13th International Robot Olympiad (2011)  
+- **2nd Place** – Autonomous Sumo Robot, Robotic Day (2011)  
+- **1st Place** – Autonomous Sumo Robot, Robotic Day (2012)  
+- **1st Place** – Line Follower Robot, Pesta Rakyat Fisika UI (2011)  
 
 ---
 
 ## **🎨 Interests**  
 - Open-source contributions  
-- Stock Investment and Stock Trading  
-- Robotics 
-- Drone FPV 
-
+- Stock investment and trading  
+- Robotics and FPV drones  
