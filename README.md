@@ -21,19 +21,19 @@
 ---
 
 ## **📝 Professional Summary**  
-Motivated and results-driven software and hardware developer with 8+ years of experience in building and optimizing scalable applications. Passionate about problem-solving and creating seamless user experiences.
+Versatile software and hardware developer with 8+ years of experience in building scalable systems and leading technical teams. Expertise in developing high-performance applications (150,000 orders/sec), designing embedded systems, and creating innovative solutions for fintech and IoT industries.
 
 ---
 
 ## **💡 Skills**  
 - **Programming Languages:** Golang, C++, C, Python, Protobuf, Bash Script (Linux / Unix), Markdown
-- **Communication Protocol / Interface:** TCP, UDP, RESTAPIs, GRPC, MQTT, UART, SPI, I2C, LORA
-- **Embedded System:** RaspberryPi, ESP32, ESP8266, STM32, AVR
-- **Hardware:** PCB Design (eagleCAD, KiCad), 3D Design (Fusion360), UV 3D Printing, CNC Machining
+- **Communication Protocol / Interface:** TCP, UDP, REST APIs, GRPC, MQTT, UART, SPI, I2C, LORA
+- **Embedded System:** Raspberry Pi, ESP32, ESP8266, STM32, AVR
+- **Hardware:** PCB Design (EagleCAD, KiCad), 3D Design (Fusion360), UV 3D Printing, CNC Machining
 - **Frameworks & Tools:** QT Creator, Docker, Git, Arduino, mbedOS, STM32CubeIDE
-- **Message Queue:** Redpanda, ZeroMQ, NanoMsg,  
-- **Databases / Cache:** MySQL, PostgreSQL, Redis  
-- **Other Skills:** Agile Development, Unit Testing, Video Editing (Final Cut Pro)  
+- **Message Queue:** Redpanda, ZeroMQ, NanoMsg
+- **Databases / Cache:** MySQL, PostgreSQL, Redis
+- **Other Skills:** Agile Development, Unit Testing, Video Editing (Final Cut Pro)
 
 ---
 
@@ -56,7 +56,8 @@ Motivated and results-driven software and hardware developer with 8+ years of ex
 ### **Senior R&D Engineer (Team Leader)**  
 **Ishaan Informatics Pte. Ltd.** | 📍 Jakarta, Indonesia  
 *Sept 2017 – Jul 2020*  
-- Designed and prototyped new electronic products for airline projects, including PCB design and layout.  
+- Led a team of 6 engineers to develop airline electronics
+- Designed and prototyped new electronic products for airline projects, such as eTag (Electronic Baggage Tag), BLE Beacon, ePass (Electronic Boarding Pass), including PCB design and layout.  
 - Implemented RESTful APIs for interfacing hardware with mobile apps and backends.  
 - Conducted thorough testing using oscilloscopes, DMMs, and antenna analyzers.  
 
@@ -90,16 +91,16 @@ Motivated and results-driven software and hardware developer with 8+ years of ex
 ## **🛠️ Projects**  
 
 ### **Bot Telegram Near ARA Stock (IDX)**  
-- Built a bot to fetch and filter stocks potentially reaching ARA (max price of the day) to assist traders. Developed in Golang.  
+- Built a bot to fetch and filter stocks potentially reaching ARA (max price of the day) to assist traders. Developed in Golang. Giving traders awareness of potential stocks with important info such as Best Bid, Best Ask Price and Volume, Latest PBV, Percent Gain. 
 
 ### **Truck Scale Software**  
-- Created a cross-platform GUI application for truck weight measurement with digital scales, ticket printing, reporting, and user account management. Developed in C++.  
+- Created a cross-platform GUI application for truck weight measurement with digital scales, ticket printing, reporting, and user account management. Developed in C++. Capable to capture the truck being scaled by using USB Camera and include it into the report. 
 
 ### **Drone Delivery Service**  
-- Designed and developed drones from schematics, PCB design, and firmware for aerial package delivery. Firmware written in C++.  
+- Designed and developed drones from schematics, PCB design, and firmware for aerial package delivery. Capable for carrying 2kg of payload. Firmware written in C++. This Quad Copter uses 17 inch carbon propeller and brushless technology to have better energy efficiency. Combined with multiple sensors such as Gyroscope, Accelerometer, Magnetometer, Barometer (MS5611 10cm accuracy) and GNSS fused with sensor fusion achieve high accuracy of position estimator. The main processor is a STM32F406RE run in mBedOS with 180MHz. Powered by high energy density Lithium Ion Battery to maximize flight time.
 
 ### **FPV Drone**  
-- Built FPV drones for hobbies and clients, including tiny whoops, freestyle 5-inch, race drones, and long-range VTOL drones.  
+- Built FPV drones for hobbies and clients, including tiny whoops, 3-3.5 inch whoops, freestyle 5-inch, race drones, and long-range VTOL drones. Equiped with latest Radio Control protocol (ELRS) maximizing covered range. With digital video transmission giving clear image to the pilot. Failsafe feature with latest GNSS UBlox M10 chip to ensure emergency Return To Home safely. All Drones are well tested before hand over to the clients.
 
 ---
 
@@ -114,4 +115,4 @@ Motivated and results-driven software and hardware developer with 8+ years of ex
 ## **🎨 Interests**  
 - Open-source contributions  
 - Stock investment and trading  
-- Robotics and FPV drones  
+- Robotics, drone development for industrial applications, and FPV drone innovation.  
