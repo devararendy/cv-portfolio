@@ -73,7 +73,7 @@ Versatile software and hardware developer with 8+ years of experience in buildin
 - Developed radio frequency communication devices and battery packs with integrated management systems.
 
 ### **Embedded System Engineer**
-**OS-Wifanusa** | 📍 Jakarta, Indonesia  
+**Homebrew Partner** | 📍 Jakarta, Indonesia  
 *Nov 2014 – Jan 2016*  
 - Designed microcontroller firmware for controlling amateur radio interfaces.
 
