@@ -1,5 +1,5 @@
 # **Rendy Devara**  
-[📧 rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [🔗 LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [🐙 GitHub](https://github.com/devararendy) | [☎️ (+62)81385960935](https://wa.me/6281385960935)
+[📧 rendy_devara@msn.com](mailto:rendy_devara@msn.com) | [🔗 LinkedIn](https://www.linkedin.com/in/rendy-devara-42bb861a2/) | [🐙 GitHub](https://github.com/devararendy) | [☎️ (+62)81285960935](https://wa.me/6281285960935)
 
 ---
 
@@ -153,7 +153,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/TruckScaleSoftware.png" alt="Truck Scale Software" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A GUI Software for Measure Truck Weight & Print Ticket
+            A GUI Software for Measure Truck Weight & Print Ticket.
             This Software will connect to digital weight scale + load cell sensor. This software will get the weight and print tickets for the Company of each Truck.
             It use encrypted SQL to ensure the data is safe and secure. The user access also can be configured.
             This software can be deployed to macOS, Linux, Windows. This was written in C++
@@ -177,7 +177,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/NanoDLP-3D-Printer-Controller.jpg" alt="NanoDLP UV 3D Printer Controller" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A Nano DLP Shield for Raspberry Pi
+            A Nano DLP Shield for Raspberry Pi.
             Consist of DRV8825 for driving Z axis, DC booster for driving 50 watt UV LED and atmega8 as a GRBL controller
         </p>
     </div>
@@ -188,7 +188,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/SDEx-FlightController.jpg" alt="SDEx 32bit Flight Controller" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A DIY Flight Controller of Smart Drone Express
+            A DIY Flight Controller of Smart Drone Express.
             Consist of STM32F446RE microcontroller, IMU MPU9250, Barometer MS5611. Programmed in System Workbench (Eclipse Based) C++ with mBed OS (Exported to local file)
         </p>
     </div>
@@ -199,7 +199,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/SDEx-DroneDelivery.jpg" alt="433MHz RF Amp 30 Watt" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A Drone for Delivering Package 
+            A Drone for Delivering Package.
             Consist of the DIY Flight Controller (inside the black box), Carbon Frame, Brushless motor, ESCs, 17” Carbon Propellers, Li-Ion Battery Pack 6s2p.
         </p>
     </div>
@@ -210,7 +210,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/UCopter-Drone.jpg" alt="Uni Copter Drone" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            An Uni-Copter Drone
+            An Uni-Copter Drone.
             Similar to Co-axial helicopter, it uses 2 rotors CW and CCW. It Consist of 2 Brushless motors, 6 servos for controlling 2 swashplates, GNSS, Pixhawk Flight Controller, Raspberry Pi 2, Long Range WiFi 2.4GHz WN7200ND and Pi Camera. 
         </p>
     </div>
@@ -232,7 +232,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/433MHz-RF-Amp-30watt.jpg" alt="433MHz RF Amp 30 Watt" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A RF Booster for Long Range Drone
+            A RF Booster for Long Range Drone.
             Consist of High Power 30 Watt RF amplifier IC to boost RF between 400 MHz - 470 MHz 
         </p>
     </div>
@@ -243,7 +243,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/HomebrewPartner-DDS-Module.jpg" alt="DDS Module Interface" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            An Interface for Amateur Radio
+            An Interface for Amateur Radio.
             Consist of 16x2 display, atmega8 and DDS AD9850 for generating local oscillator. Programmed in C using Atmel Studio 
         </p>
     </div>
@@ -254,7 +254,7 @@ Welcome to my portfolio! Here are my featured projects:
     <img src="./resource/image/UAV-SmadaRobo.jpg" alt="SmadaRobo UAV" width="200" style="border-radius: 5%;">
     <div>
         <p>
-            A Fixwing UAV Drone, built when I was on Senior High School at SMAN 2 Depok for IARC Contest
+            A Fixwing UAV Drone, built when I was on Senior High School at SMAN 2 Depok for IARC Contest.
             This Drone equiped with brushless motor and 14 inch propeller. With 180cm wingspan to increase efficiency. With GNSS to be able to locate current position of the Drone. Equiped with FPV camera and capable to send realtime video.
         </p>
     </div>
