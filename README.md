@@ -136,6 +136,18 @@ Welcome to my portfolio! Here are my featured projects:
     </div>
 </div>
 
+### **📁 24invitation.com - Digital Invitation Service**
+<div style="display: flex; align-items: center; gap: 20px;">
+    <img src="./resource/image/24invitation-DigitalInvitationService.png" alt="24invitation.com - a Digital Invitation Service" width="200" style="border-radius: 5%;">
+    <div>
+        <p>
+            A Website that provide You a Digital Invitation service.
+            This a new era for inviting Your beloved guest to Your best Wedding Party. With this website You can easily manage your guest, see their best wishes for You. You can manage it thru Your own dashboard.
+            This Website is using Django as a backend.
+        </p>
+    </div>
+</div>
+
 ### **📁 TruckScale Software**
 <div style="display: flex; align-items: center; gap: 20px;">
     <img src="./resource/image/TruckScaleSoftware.png" alt="Truck Scale Software" width="200" style="border-radius: 5%;">
