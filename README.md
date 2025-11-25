@@ -6,7 +6,7 @@
 ## **👤 Profile**  
 
 <div style="display: flex; align-items: center; gap: 20px;">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1743033600&v=beta&t=Cbf2s5GM14o2WeYy5Cv9PuOMeshtJCv4_fDnyIfx99k" alt="Profile Image" width="150" style="border-radius: 50%;">
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1763596800&v=beta&t=1sY5LPlwcMvysfpbH47vCBkCXRxw38sjJ7xufxVBjKs" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
             <li><b>Full Name:</b> Rendy Devara</li>
@@ -43,9 +43,10 @@ Versatile software and hardware developer with 8+ years of experience in buildin
 ### **Senior Backend Engineer**
 **Stockbit.com** | 📍 Jakarta, Indonesia  
 *Dec 2021 – Present*  
+- Implemented the OUCH Protocol, significantly boosting Stockbit’s trading speed and efficiency over the previous system.
+- Built services for stock exchanges using Golang.
 - Developed Exchange Core (matching engine) adopting LMAX architecture using C++17, capable of handling 150,000 orders per second.
 - Created development tools for Unix/Linux-based systems.
-- Built services for stock exchanges using Golang.
 
 ### **Firmware Engineer**
 **PT Mecoindo - Itron** | 📍 South Cikarang, Indonesia  
