@@ -6,7 +6,7 @@
 ## **👤 Profile**  
 
 <div style="display: flex; align-items: center; gap: 20px;">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628176830013?e=1763596800&v=beta&t=1sY5LPlwcMvysfpbH47vCBkCXRxw38sjJ7xufxVBjKs" alt="Profile Image" width="150" style="border-radius: 50%;">
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1628176830013?e=1792627200&v=beta&t=TG8D30wPCeYi5ARCkeBPPpm_lT75ZRk4T2AmT3Yn1HA" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
             <li><b>Full Name:</b> Rendy Devara</li>
@@ -21,20 +21,20 @@
 
 ## **📝 Professional Summary**
 
-Versatile software and hardware developer with 8+ years of experience in building scalable systems and leading technical teams. Expertise in developing high-performance applications (150,000 orders/sec), designing embedded systems, and creating innovative solutions for fintech and IoT industries.
+Versatile software and hardware developer with 9+ years of working experience in building scalable systems and leading technical teams. Expertise in developing high-performance applications (150,000 orders/sec), designing embedded systems, and creating innovative solutions for fintech and IoT industries.
 
 ---
 
 ## **💡 Skills**
 
 - **Programming Languages:** Golang, C++, C, Python, Protobuf, Bash Script (Linux / Unix), Markdown
-- **Communication Protocol / Interface:** TCP, UDP, REST APIs, GRPC, MQTT, UART, SPI, I2C, LORA
+- **Communication Protocol / Interface:** TCP, UDP, REST APIs, FIX, OUCH, GRPC, MQTT, UART, SPI, I2C, LORA
 - **Embedded System:** Raspberry Pi, ESP32, ESP8266, STM32, AVR
 - **Hardware:** PCB Design (EagleCAD, KiCad), 3D Design (Fusion360), UV 3D Printing, CNC Machining
 - **Frameworks & Tools:** QT Creator, Docker, Git, Arduino, mbedOS, STM32CubeIDE
 - **Message Queue:** Redpanda, ZeroMQ, NanoMsg
 - **Databases / Cache:** MySQL, PostgreSQL, Redis
-- **Other Skills:** Agile Development, Unit Testing, Video Editing (Final Cut Pro)
+- **Other Skills:** Agile Development, Unit Testing (gomega, GoogleTest), Video Editing (Final Cut Pro)
 
 ---
 
@@ -127,6 +127,16 @@ Versatile software and hardware developer with 8+ years of experience in buildin
 
 Welcome to my portfolio! Here are my featured projects:
 
+### **📁 [MAVVision](https://play.google.com/store/apps/details?id=com.mavvision.app&pcampaignid=web_share) - FPV Video + Mavlink Bridge Over Network**
+<div style="display: flex; align-items: center; gap: 20px;">
+    <img src="./resource/image/MAVVision-app-ss.webp" alt="MAVVision" width="200" style="border-radius: 5%;">
+    <div>
+        <p>
+            <a href="https://play.google.com/store/apps/details?id=com.mavvision.app&pcampaignid=web_share">MAVVision</a> is an app that turn your android into FPV Camera + Mavlink USB telemetry to TCP / UDP bridge. So you can connect RC Car, Drone, VTOL to GCS (QGroundControl, Mission Planner) over WiFI, 4G/5G Network anywhere as long there is internet connection.
+        </p>
+    </div>
+</div>
+
 ### **📁 5-inch Freestyle FPV Drone**
 <div style="display: flex; align-items: center; gap: 20px;">
     <img src="./resource/image/FPV-Freestyle-Drone.jpg" alt="5-inch Freestyle FPV Drone" width="200" style="border-radius: 5%;">
@@ -144,7 +154,7 @@ Welcome to my portfolio! Here are my featured projects:
         <p>
             A Website that provide You a Digital Invitation service.
             This a new era for inviting Your beloved guest to Your best Wedding Party. With this website You can easily manage your guest, see their best wishes for You. You can manage it thru Your own dashboard.
-            This Website is using Django as a backend.
+            This Website is using Python Django as a backend.
         </p>
     </div>
 </div>
@@ -190,7 +200,7 @@ Welcome to my portfolio! Here are my featured projects:
     <div>
         <p>
             A DIY Flight Controller of Smart Drone Express.
-            Consist of STM32F446RE microcontroller, IMU MPU9250, Barometer MS5611. Programmed in System Workbench (Eclipse Based) C++ with mBed OS (Exported to local file)
+            Consist of STM32F446RE microcontroller, IMU MPU9250, Barometer MS5611. Programmed in System Workbench (Eclipse Based) C++ with mBed OS
         </p>
     </div>
 </div>
@@ -201,7 +211,7 @@ Welcome to my portfolio! Here are my featured projects:
     <div>
         <p>
             A Drone for Delivering Package.
-            Consist of the DIY Flight Controller (inside the black box), Carbon Frame, Brushless motor, ESCs, 17” Carbon Propellers, Li-Ion Battery Pack 6s2p.
+            Consist of the DIY Flight Controller (STM32F446RE with mBed OS), Carbon Frame, Brushless motor, ESCs, 17” Carbon Propellers, Li-Ion Battery Pack 6s2p.
         </p>
     </div>
 </div>
