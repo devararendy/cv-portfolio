@@ -6,7 +6,7 @@
 ## **👤 Profile**  
 
 <div style="display: flex; align-items: center; gap: 20px;">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1628176830013?e=1792627200&v=beta&t=TG8D30wPCeYi5ARCkeBPPpm_lT75ZRk4T2AmT3Yn1HA" alt="Profile Image" width="150" style="border-radius: 50%;">
+    <img src="./resource/image/RendyDevara.jpg" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
             <li><b>Full Name:</b> Rendy Devara</li>
@@ -21,47 +21,63 @@
 
 ## **📝 Professional Summary**
 
-Versatile software and hardware developer with 9+ years of working experience in building scalable systems and leading technical teams. Expertise in developing high-performance applications (150,000 orders/sec), designing embedded systems, and creating innovative solutions for fintech and IoT industries.
+Backend engineer specializing in low-latency order routing, exchange connectivity, and production-grade trading systems. With 9+ years of experience across software and hardware engineering, I lead high-throughput, latency-sensitive systems that connect brokers to stock exchanges, manage order flow, and support market operations in real time. I focus on technical ownership, operational reliability, and scalable architecture for critical financial infrastructure.
 
 ---
 
 ## **💡 Skills**
 
-- **Programming Languages:** Golang, C++, C, Python, Protobuf, Bash Script (Linux / Unix), Markdown
-- **Communication Protocol / Interface:** TCP, UDP, REST APIs, FIX, OUCH, GRPC, MQTT, UART, SPI, I2C, LORA
+### **Software Skills**
+- **Programming Languages:** Go, C++, Python, SQL, Bash Script (Linux / Unix)
+- **Communication Protocol / Interface:** TCP, UDP, REST APIs, FIX, OUCH, gRPC
+- **Messaging & Data:** Kafka/Redpanda, Redis, PostgreSQL, SQL Server, S3
+- **Protocols & Integration:** FIX, OUCH / SoupBinTCP, gRPC / Protobuf, Avro, REST APIs
+- **Infrastructure & Observability:** Kubernetes, Docker, Git, ArgoCD, Vault, Grafana, OpenTelemetry, New Relic, K6, GitLab CI, Sonar
+- **Engineering Practices:** Low-latency optimization (µs-level), idempotency and recovery design, load testing, gradual rollouts, feature flags, unit testing (Gomega, mocks)
+- **Domain Knowledge:** IDX market structure, order lifecycle, exchange connectivity, market operations
+
+### **Hardware Skills**
+- **Communication Protocol / Interface:** MQTT, UART, SPI, I2C, LORA, MAVLink
 - **Embedded System:** Raspberry Pi, ESP32, ESP8266, STM32, AVR
+- **Measurement & Troubleshooting:** Digital Multimeter, Oscilloscope, Signal Analysis, Hardware Debugging
 - **Hardware:** PCB Design (EagleCAD, KiCad), 3D Design (Fusion360), UV 3D Printing, CNC Machining
-- **Frameworks & Tools:** QT Creator, Docker, Git, Arduino, mbedOS, STM32CubeIDE
-- **Message Queue:** Redpanda, ZeroMQ, NanoMsg
-- **Databases / Cache:** MySQL, PostgreSQL, Redis
-- **Other Skills:** Agile Development, Unit Testing (gomega, GoogleTest), Video Editing (Final Cut Pro)
+- **Drone & VTOL Systems:** ArduPilot, Betaflight, PX4, Flight Controller Tuning, Propulsion Systems, UAV Integration
+- **Frameworks & Tools:** QT Creator, Arduino, mbedOS, STM32CubeIDE
 
 ---
 
 ## **🏢 Professional Experience**
 
-### **Senior Backend Engineer**
+### **Backend Engineer, Order Routing & Exchange Connectivity**
 **Stockbit.com** | 📍 Jakarta, Indonesia  
 *Dec 2021 – Present*  
-- Implemented the OUCH Protocol, significantly boosting Stockbit’s trading speed and efficiency over the previous system.
-- Built services for stock exchanges using Golang.
-- Developed Exchange Core (matching engine) adopting LMAX architecture using C++17, capable of handling 150,000 orders per second.
-- Created development tools for Unix/Linux-based systems.
+- Technical lead / PIC for exchange connectivity initiatives, including RFC design, technical scoping, task breakdown, MR review, release coordination, and go-live support.
+- Own order-related services for transformation, routing, and sending flows across FIX and OUCH integrations, including outgoing/incoming transformers and binary protocol handling.
+- Deliver production-ready trading infrastructure with release notes, ArgoCD/Vault configuration, gradual rollouts, alerting, Grafana dashboards, and operational safeguards during market hours.
+- Support market operations through IDX mock trading, morning monitoring, fire drills, on-call incident investigation, and manual data correction for stuck or pending orders.
+- Mentor engineers through onboarding and knowledge-sharing sessions while contributing to the wider trading stack, including risk, margin, settlement bridges, and pre-queue order workflows.
+
+### **Key Achievements**
+- **OUCH protocol adoption (2024–2025):** Designed and implemented the OUCH Order Sender and integration changes, including Router transformers and an encoder/decoder for low-latency trading flows. Rolled out to production gradually from 1% to 100% of traffic.
+- **Faster preload and early launch:** Built a preproduce mechanism that reduced backup-write latency and improved early-market launch timing from milliseconds to microseconds.
+- **Pre Queue Order Generator performance (2026):** Reduced processing time for 100K mixed orders from ~4 minutes 20 seconds to ~30 seconds after parallelization and indexing, without CPU throttling.
+- **FCA market cycle support:** Wrote the RFC and technical design, implemented handling across pre-queue FIX/OUCH launchers and exchange stock workflows, and optimized a sorting slowdown from ~4 seconds to ~1 second.
+- **New IDX platform support:** Contributed to FIX design updates and later OUCH version changes required for the new exchange platform.
 
 ### **Firmware Engineer**
 **PT Mecoindo - Itron** | 📍 South Cikarang, Indonesia  
 *Sept 2020 – Nov 2021*  
-- Designed firmware and applications for Smart Electric Meters and Modems using Python for Linux user space.
-- Created custom Linux builds for embedded systems (Buildroot & Yocto).
-- Developed Unix/Linux-based tools.
+- Designed firmware and Linux user-space applications for Smart Electric Meters and Modems using Python.
+- Created custom Linux builds for embedded systems using Buildroot and Yocto.
+- Built Unix/Linux-based tooling to support device development and deployment.
 
 ### **Senior R&D Engineer (Team Leader)**
 **Ishaan Informatics Pte. Ltd.** | 📍 Jakarta, Indonesia  
 *Sept 2017 – Jul 2020*  
-- Led a team of 6 engineers to develop airline electronics.
-- Designed and prototyped new electronic products for airline projects, such as eTag (Electronic Baggage Tag), BLE Beacon, ePass (Electronic Boarding Pass), including PCB design and layout.
-- Implemented RESTful APIs for interfacing hardware with mobile apps and backends.
-- Conducted thorough testing using oscilloscopes, DMMs, and antenna analyzers.
+- Led a team of 6 engineers to design and deliver airline electronics products for mission-critical use cases.
+- Prototyped and validated products such as eTag, BLE Beacon, and ePass, including PCB design, layout, and hardware debugging.
+- Implemented RESTful APIs for interfacing hardware with mobile apps and backend systems.
+- Conducted hardware verification using oscilloscopes, DMMs, and antenna analyzers.
 
 ---
 
