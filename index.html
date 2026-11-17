@@ -370,7 +370,7 @@ code {
 <hr>
 <h2 id="-profile"><strong>👤 Profile</strong></h2>
 <div style="display: flex; align-items: center; gap: 20px;">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQFNc3dD7xReRg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1628176830013?e=1792627200&v=beta&t=TG8D30wPCeYi5ARCkeBPPpm_lT75ZRk4T2AmT3Yn1HA" alt="Profile Image" width="150" style="border-radius: 50%;">
+    <img src="./resource/image/RendyDevara.jpg" alt="Profile Image" width="150" style="border-radius: 50%;">
     <div>
         <ul>
             <li><b>Full Name:</b> Rendy Devara</li>
@@ -382,46 +382,64 @@ code {
 </div>
 <hr>
 <h2 id="-professional-summary"><strong>📝 Professional Summary</strong></h2>
-<p>Versatile software and hardware developer with 9+ years of working experience in building scalable systems and leading technical teams. Expertise in developing high-performance applications (150,000 orders/sec), designing embedded systems, and creating innovative solutions for fintech and IoT industries.</p>
+<p>Backend engineer specializing in low-latency order routing, exchange connectivity, and production-grade trading systems. With 9+ years of experience across software and hardware engineering, I lead high-throughput, latency-sensitive systems that connect brokers to stock exchanges, manage order flow, and support market operations in real time. I focus on technical ownership, operational reliability, and scalable architecture for critical financial infrastructure.</p>
 <hr>
 <h2 id="-skills"><strong>💡 Skills</strong></h2>
+<h3 id="software-skills"><strong>Software Skills</strong></h3>
 <ul>
-<li><strong>Programming Languages:</strong> Golang, C++, C, Python, Protobuf, Bash Script (Linux / Unix), Markdown</li>
-<li><strong>Communication Protocol / Interface:</strong> TCP, UDP, REST APIs, FIX, OUCH, GRPC, MQTT, UART, SPI, I2C, LORA</li>
+<li><strong>Programming Languages:</strong> Go, C++, Python, SQL, Bash Script (Linux / Unix)</li>
+<li><strong>Communication Protocol / Interface:</strong> TCP, UDP, REST APIs, FIX, OUCH, gRPC</li>
+<li><strong>Messaging &amp; Data:</strong> Kafka/Redpanda, Redis, PostgreSQL, SQL Server, S3</li>
+<li><strong>Protocols &amp; Integration:</strong> FIX, OUCH / SoupBinTCP, gRPC / Protobuf, Avro, REST APIs</li>
+<li><strong>Infrastructure &amp; Observability:</strong> Kubernetes, Docker, Git, ArgoCD, Vault, Grafana, OpenTelemetry, New Relic, K6, GitLab CI, Sonar</li>
+<li><strong>Engineering Practices:</strong> Low-latency optimization (µs-level), idempotency and recovery design, load testing, gradual rollouts, feature flags, unit testing (Gomega, mocks)</li>
+<li><strong>Domain Knowledge:</strong> IDX market structure, order lifecycle, exchange connectivity, market operations</li>
+</ul>
+<h3 id="hardware-skills"><strong>Hardware Skills</strong></h3>
+<ul>
+<li><strong>Communication Protocol / Interface:</strong> MQTT, UART, SPI, I2C, LORA, MAVLink</li>
 <li><strong>Embedded System:</strong> Raspberry Pi, ESP32, ESP8266, STM32, AVR</li>
+<li><strong>Measurement &amp; Troubleshooting:</strong> Digital Multimeter, Oscilloscope, Signal Analysis, Hardware Debugging</li>
 <li><strong>Hardware:</strong> PCB Design (EagleCAD, KiCad), 3D Design (Fusion360), UV 3D Printing, CNC Machining</li>
-<li><strong>Frameworks &amp; Tools:</strong> QT Creator, Docker, Git, Arduino, mbedOS, STM32CubeIDE</li>
-<li><strong>Message Queue:</strong> Redpanda, ZeroMQ, NanoMsg</li>
-<li><strong>Databases / Cache:</strong> MySQL, PostgreSQL, Redis</li>
-<li><strong>Other Skills:</strong> Agile Development, Unit Testing (gomega, GoogleTest), Video Editing (Final Cut Pro)</li>
+<li><strong>Drone &amp; VTOL Systems:</strong> ArduPilot, Betaflight, PX4, Flight Controller Tuning, Propulsion Systems, UAV Integration</li>
+<li><strong>Frameworks &amp; Tools:</strong> QT Creator, Arduino, mbedOS, STM32CubeIDE</li>
 </ul>
 <hr>
 <h2 id="-professional-experience"><strong>🏢 Professional Experience</strong></h2>
-<h3 id="senior-backend-engineer"><strong>Senior Backend Engineer</strong></h3>
+<h3 id="backend-engineer-order-routing--exchange-connectivity"><strong>Backend Engineer, Order Routing &amp; Exchange Connectivity</strong></h3>
 <p><strong>Stockbit.com</strong> | 📍 Jakarta, Indonesia<br>
 <em>Dec 2021 – Present</em></p>
 <ul>
-<li>Implemented the OUCH Protocol, significantly boosting Stockbit’s trading speed and efficiency over the previous system.</li>
-<li>Built services for stock exchanges using Golang.</li>
-<li>Developed Exchange Core (matching engine) adopting LMAX architecture using C++17, capable of handling 150,000 orders per second.</li>
-<li>Created development tools for Unix/Linux-based systems.</li>
+<li>Technical lead / PIC for exchange connectivity initiatives, including RFC design, technical scoping, task breakdown, MR review, release coordination, and go-live support.</li>
+<li>Own order-related services for transformation, routing, and sending flows across FIX and OUCH integrations, including outgoing/incoming transformers and binary protocol handling.</li>
+<li>Deliver production-ready trading infrastructure with release notes, ArgoCD/Vault configuration, gradual rollouts, alerting, Grafana dashboards, and operational safeguards during market hours.</li>
+<li>Support market operations through IDX mock trading, morning monitoring, fire drills, on-call incident investigation, and manual data correction for stuck or pending orders.</li>
+<li>Mentor engineers through onboarding and knowledge-sharing sessions while contributing to the wider trading stack, including risk, margin, settlement bridges, and pre-queue order workflows.</li>
+</ul>
+<h3 id="key-achievements"><strong>Key Achievements</strong></h3>
+<ul>
+<li><strong>OUCH protocol adoption (2024–2025):</strong> Designed and implemented the OUCH Order Sender and integration changes, including Router transformers and an encoder/decoder for low-latency trading flows. Rolled out to production gradually from 1% to 100% of traffic.</li>
+<li><strong>Faster preload and early launch:</strong> Built a preproduce mechanism that reduced backup-write latency and improved early-market launch timing from milliseconds to microseconds.</li>
+<li><strong>Pre Queue Order Generator performance (2026):</strong> Reduced processing time for 100K mixed orders from ~4 minutes 20 seconds to ~30 seconds after parallelization and indexing, without CPU throttling.</li>
+<li><strong>FCA market cycle support:</strong> Wrote the RFC and technical design, implemented handling across pre-queue FIX/OUCH launchers and exchange stock workflows, and optimized a sorting slowdown from ~4 seconds to ~1 second.</li>
+<li><strong>New IDX platform support:</strong> Contributed to FIX design updates and later OUCH version changes required for the new exchange platform.</li>
 </ul>
 <h3 id="firmware-engineer"><strong>Firmware Engineer</strong></h3>
 <p><strong>PT Mecoindo - Itron</strong> | 📍 South Cikarang, Indonesia<br>
 <em>Sept 2020 – Nov 2021</em></p>
 <ul>
-<li>Designed firmware and applications for Smart Electric Meters and Modems using Python for Linux user space.</li>
-<li>Created custom Linux builds for embedded systems (Buildroot &amp; Yocto).</li>
-<li>Developed Unix/Linux-based tools.</li>
+<li>Designed firmware and Linux user-space applications for Smart Electric Meters and Modems using Python.</li>
+<li>Created custom Linux builds for embedded systems using Buildroot and Yocto.</li>
+<li>Built Unix/Linux-based tooling to support device development and deployment.</li>
 </ul>
 <h3 id="senior-rd-engineer-team-leader"><strong>Senior R&amp;D Engineer (Team Leader)</strong></h3>
 <p><strong>Ishaan Informatics Pte. Ltd.</strong> | 📍 Jakarta, Indonesia<br>
 <em>Sept 2017 – Jul 2020</em></p>
 <ul>
-<li>Led a team of 6 engineers to develop airline electronics.</li>
-<li>Designed and prototyped new electronic products for airline projects, such as eTag (Electronic Baggage Tag), BLE Beacon, ePass (Electronic Boarding Pass), including PCB design and layout.</li>
-<li>Implemented RESTful APIs for interfacing hardware with mobile apps and backends.</li>
-<li>Conducted thorough testing using oscilloscopes, DMMs, and antenna analyzers.</li>
+<li>Led a team of 6 engineers to design and deliver airline electronics products for mission-critical use cases.</li>
+<li>Prototyped and validated products such as eTag, BLE Beacon, and ePass, including PCB design, layout, and hardware debugging.</li>
+<li>Implemented RESTful APIs for interfacing hardware with mobile apps and backend systems.</li>
+<li>Conducted hardware verification using oscilloscopes, DMMs, and antenna analyzers.</li>
 </ul>
 <hr>
 <h2 id="-part-time-experience"><strong>⏳ Part-Time Experience</strong></h2>
